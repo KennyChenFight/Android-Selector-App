@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_yesorno"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <ImageView
+        android:id="@+id/ivCircle"
+        android:layout_width="263dp"
+        android:layout_height="391dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="156dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/catalog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#00000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/catalog"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+    android:id="@+id/ivMusicPlay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="160dp"
+    android:layout_marginTop="168dp"
+    android:visibility="visible"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/ivCircle"
+    app:srcCompat="@drawable/music_play" />
+
+    <ImageButton
+        android:id="@+id/ibText"
+        android:layout_width="29dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/text" />
+
+    <ImageView
+        android:id="@+id/needle"
+        android:layout_width="248dp"
+        android:layout_height="283dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/needle" />
+
+</android.support.constraint.ConstraintLayout>

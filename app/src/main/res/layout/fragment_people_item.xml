@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/item_background"
+    android:clickable="true"
+    android:focusable="true"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <ImageView
+        android:id="@+id/PeopleTable1"
+        android:layout_width="397dp"
+        android:layout_height="210dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        app:srcCompat="@mipmap/item_table02"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="406dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <ImageButton
+        android:id="@+id/people_item01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        app:srcCompat="@drawable/people_item01"
+        android:layout_marginStart="48dp"
+        app:layout_constraintTop_toTopOf="@+id/PeopleTable1"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="48dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageButton
+        android:id="@+id/people_item02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        app:srcCompat="@drawable/people_item02"
+        android:layout_marginStart="35dp"
+        app:layout_constraintTop_toTopOf="@+id/PeopleTable1"
+        android:layout_marginTop="54dp"
+        app:layout_constraintLeft_toRightOf="@+id/people_item01"
+        android:layout_marginLeft="35dp" />
+
+    <ImageButton
+        android:id="@+id/people_item03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        app:srcCompat="@drawable/people_item03"
+        app:layout_constraintTop_toTopOf="@+id/PeopleTable1"
+        android:layout_marginTop="54dp"
+        app:layout_constraintLeft_toRightOf="@+id/people_item02"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp" />
+
+    <ImageButton
+        android:id="@+id/people_item04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="52dp"
+        android:background="#00000000"
+        app:layout_constraintLeft_toRightOf="@+id/people_item03"
+        app:layout_constraintTop_toTopOf="@+id/PeopleTable1"
+        app:srcCompat="@drawable/people_item04" />
+
+    <ImageButton
+        android:id="@+id/people_item05"
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:background="#00000000"
+        app:srcCompat="@drawable/people_item05"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toTopOf="@+id/PeopleTable1"
+        android:layout_marginTop="54dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintRight_toRightOf="@+id/PeopleTable1" />
+
+    <ImageButton
+        android:id="@+id/people_item06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        app:srcCompat="@drawable/people_item06"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toBottomOf="@+id/people_item01"
+        android:layout_marginLeft="48dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="48dp" />
+
+    <ImageButton
+        android:id="@+id/people_item07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        app:srcCompat="@drawable/people_item07"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toBottomOf="@+id/people_item02"
+        app:layout_constraintLeft_toRightOf="@+id/people_item06"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+
+    <ImageButton
+        android:id="@+id/people_item08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        app:srcCompat="@drawable/people_item08"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toBottomOf="@+id/people_item03"
+        app:layout_constraintLeft_toRightOf="@+id/people_item07"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp" />
+
+    <ImageButton
+        android:id="@+id/people_item09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="40dp"
+        android:background="#00000000"
+        app:layout_constraintLeft_toRightOf="@+id/people_item08"
+        app:layout_constraintTop_toBottomOf="@+id/people_item04"
+        app:srcCompat="@drawable/people_item09" />
+
+    <ImageButton
+        android:id="@+id/people_item10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        app:srcCompat="@drawable/people_item10"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/people_item09"
+        app:layout_constraintRight_toRightOf="@+id/people_item05"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/people_item05"
+        app:layout_constraintTop_toTopOf="@+id/people_item09"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/PeopleTable2"
+        android:layout_width="0dp"
+        android:layout_height="103dp"
+        app:srcCompat="@mipmap/item_table01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        tools:layout_constraintLeft_creator="1" />
+
+    <ImageButton
+        android:id="@+id/additem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:background="#00000000"
+        app:srcCompat="@mipmap/item_add"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="13dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/exit"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.989"
+        android:layout_marginStart="8dp" />
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:background="#00000000"
+        app:srcCompat="@mipmap/item_exit"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/square"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        app:srcCompat="@mipmap/item_square"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/PeopleTable2"
+        app:layout_constraintTop_toTopOf="@+id/PeopleTable2"
+        android:layout_marginTop="49dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:background="#00000000"
+        android:inputType="text|textPersonName"
+        android:layout_marginStart="39dp"
+        android:hint="Type Something You Like!"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="37dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/PeopleTable2"
+        android:layout_marginTop="49dp"
+        android:layout_marginLeft="39dp"
+        app:layout_constraintLeft_toLeftOf="@+id/square" />
+
+    <FrameLayout
+        android:id="@+id/people_Container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"></FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

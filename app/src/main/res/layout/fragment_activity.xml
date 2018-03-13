@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_activity"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <ImageView
+        android:id="@+id/ivCircle"
+        android:layout_width="263dp"
+        android:layout_height="391dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="156dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/catalog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#00000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/catalog"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <ImageButton
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="42dp"
+        android:background="#00000000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catalog"
+        app:srcCompat="@drawable/enter_add" />
+
+    <ImageView
+        android:id="@+id/ivMusicPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="120dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/listView"
+        app:layout_constraintTop_toTopOf="@+id/listView"
+        app:srcCompat="@drawable/music_play" />
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+
+        android:id="@+id/listView"
+        android:layout_width="327dp"
+        android:layout_height="285dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
+        android:background="#906262"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivCircle">
+
+    </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+    <ImageButton
+        android:id="@+id/enter"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:background="#00000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listView"
+        app:srcCompat="@drawable/setting" />
+
+    <ImageButton
+        android:id="@+id/ibText"
+        android:layout_width="29dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="37dp"
+        android:background="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listView"
+        app:srcCompat="@drawable/text" />
+
+    <ImageView
+        android:id="@+id/needle"
+        android:layout_width="248dp"
+        android:layout_height="283dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/needle" />
+
+</android.support.constraint.ConstraintLayout>
